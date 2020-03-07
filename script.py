@@ -1,7 +1,5 @@
 import random
 
-
-#Write your game of chance functions here
 money=100
 #coin flip function
 def coin_flip(bet,heads_tails):
@@ -86,7 +84,7 @@ def roulette(bet,choice):
     
     
   
-#Call your game of chance functions here
+#Calling game functions here
 print(coin_flip(2,"heads"))
 print(cho_han(10,"odd"))
 print(cards(10))
